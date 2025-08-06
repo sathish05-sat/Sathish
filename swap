@@ -1,0 +1,12 @@
+class Main {
+    public static void main(String[] args) {
+        int i;
+        String[]Array={"aaa","bbb","ccc"};
+        for(i=0;i<Array.length;i++){
+        if(Array[i]=="ccc"){
+            Array[i]="ddd";
+        }
+        System.out.println( Array[i]);
+        }
+    }
+}
