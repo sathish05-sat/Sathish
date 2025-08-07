@@ -6,15 +6,14 @@ class Main {
       int fn =sc.nextInt();
       System.out.println("enter the last number:");
       int ln=sc.nextInt();
-      double rn=fn+(Math.random()*((fn+ln)+1));
+      int rn=fn+(int)(Math.random()*((fn+ln)+1));
       System.out.println(rn);
       
     }
 }
-
-output:
+OUTPUT:
 enter the first number:
-12
+5
 enter the last number:
-13
-22.756220112260543
+90
+20
