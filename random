@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+      Scanner sc=new Scanner(System.in);
+      System.out.println("enter the first number:");
+      int fn =sc.nextInt();
+      System.out.println("enter the last number:");
+      int ln=sc.nextInt();
+      double rn=fn+(Math.random()*((fn+ln)+1));
+      System.out.println(rn);
+      
+    }
+}
+
+output:
+enter the first number:
+12
+enter the last number:
+13
+22.756220112260543
