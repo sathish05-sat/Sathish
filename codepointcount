@@ -1,0 +1,10 @@
+public class CodePointCounter {
+    public static void main(String[] args) {
+       String text = "sathish";
+        int beginIndex = 0;
+        int endIndex = text.length();
+        int codePointCount = text.codePointCount(beginIndex,endIndex);
+        System.out.println("Text: " + text);
+        System.out.println("Number of Unicode code points: " + codePointCount);
+    }
+}
