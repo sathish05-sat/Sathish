@@ -1,0 +1,11 @@
+public class Comparetoignore {
+    public static void main(String[] args) {
+        
+       String data1="Hello";
+       String data2="Sathish";
+       int result=data1.compareToIgnoreCase(data2);
+      
+        System.out.println(result);
+       
+    }
+}
