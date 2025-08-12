@@ -1,8 +1,13 @@
+
 public class Main{
     public static void main(String[] args) {
-      String name="HELLO WORLD IAM SATHISH ";
+      String x= ("");
+      String y=("sathish");
       
-      System.out.println(name.isEmpty());
+      System.out.println(x.isEmpty());
+      System.out.println(y.isEmpty());
        
     }
 }
+
+
