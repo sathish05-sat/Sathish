@@ -1,0 +1,11 @@
+class Main {
+    public static void main(String[] args) {
+        String x="sathish";
+        int Codepoint=x.codePointBefore(4);
+        System.out.println(Codepoint);
+        
+        
+         
+     
+    }
+}
