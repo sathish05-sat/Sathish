@@ -1,0 +1,12 @@
+class Main {
+    public static void main(String[] args) {
+        String x="Hi,im sathish hi world.";
+        String y="[,\\.\\s]";
+        String []z=x.split(y);
+        for (String a:z){
+         System.out.println(a);
+        }
+        
+        
+    }
+}
