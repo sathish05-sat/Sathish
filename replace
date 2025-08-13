@@ -1,0 +1,12 @@
+class Main {
+    public static void main(String[] args) {
+        String x="sathish";
+        String y="hello world";
+        
+        System.out.println(x.replace('t','r'));
+        String a="hello";
+         System.out.println(y.replaceAll(a,"hi"));
+        
+        
+    }
+}
