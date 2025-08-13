@@ -1,0 +1,10 @@
+class Main {
+    public static void main(String[] args) {
+        String a="sathish";
+        String v="hello world";
+        String x="hello|sathish|java";
+        System.out.println("hello".matches(x));
+        System.out.println("sathish".matches(x));
+        System.out.println("javascript".matches(x));
+        System.out.println(x.regionMatches(7,a,4,5));
+    }
