@@ -1,0 +1,11 @@
+class Main {
+    public static void main(String[] args) {
+        String x="Hi,im sathish,studying in btech IT from mountzion college.hi world.";
+         System.out.println(x.startsWith("Hi"));
+         System.out.println(x.startsWith("hi"));
+         
+        
+        
+        
+    }
+}
