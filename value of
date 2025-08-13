@@ -1,0 +1,12 @@
+
+class Main {
+    public static void main(String[] args) {
+        String x="    sathish    ";
+        
+        System.out.println(x.trim());
+        
+        System.out.println(String.valueOf(x));
+        System.out.println(String.valueOf(true));
+       
+    }
+}
